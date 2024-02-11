@@ -9,7 +9,7 @@
 .kutora__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 

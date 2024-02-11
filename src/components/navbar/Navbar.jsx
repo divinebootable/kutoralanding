@@ -8,13 +8,15 @@ const Navbar = () => {
 
   return (
     <div className="kutora__navbar">
+      <div className="kutora__navbar-links_logo">
+        <img src="logo" alt="Kutora" />
+      </div>
       <div className="kutora__navbar-links">
-        <div className="kutora__navbar-links_logo">
-          <img src="logo" alt="Kutora" />
-        </div>
         <div className="kutora__navbar-links_container">
           <p>
-            <a href="#home">Home</a>
+            <a href="#home" c>
+              Home
+            </a>
           </p>
           <p>
             <a href="#about">About</a>
@@ -22,17 +24,19 @@ const Navbar = () => {
           <p>
             <a href="#features">Features</a>
           </p>
-          <p>
-            <a href="#faq">FAQ</a>
-          </p>
+          {/* <p>
+            <a href="#faq" className="gradient__text">
+              FAQ
+            </a>
+          </p> */}
           <p>
             <a href="#contact">Contact</a>
           </p>
         </div>
       </div>
       <div className="kutora__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <p>Login</p>
+        <button type="button">Try for Free</button>
       </div>
       <div className="kutora__navbar-menu">
         {toggleMenu ? (
@@ -60,16 +64,16 @@ const Navbar = () => {
               <p>
                 <a href="#features">Features</a>
               </p>
-              <p>
+              {/* <p>
                 <a href="#faq">FAQ</a>
-              </p>
+              </p> */}
               <p>
                 <a href="#contact">Contact</a>
               </p>
             </div>
             <div className="kutora__navbar-menu_container-links-sign">
-              <p>Sign in</p>
-              <button type="button">Sign up</button>
+              <p>Login</p>
+              <button type="button">Try for Free</button>
             </div>
           </div>
         )}
