@@ -8,19 +8,18 @@ const Navbar = () => {
 
   return (
     <div className="kutora__navbar">
-      <div className="kutora__navbar-links_logo">
-        <img src="logo" alt="Kutora" />
+      <div className="kutora__navbar-links_logo logo">
+        <span className="text">Kutora</span>
+        <span className="dot">.</span>
       </div>
       <div className="kutora__navbar-links">
         <div className="kutora__navbar-links_container">
           <p>
-            <a href="#home" c>
-              Home
-            </a>
+            <a href="#home">Home</a>
           </p>
-          <p>
+          {/* <p>
             <a href="#about">About</a>
-          </p>
+          </p> */}
           <p>
             <a href="#features">Features</a>
           </p>

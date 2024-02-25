@@ -111,7 +111,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease, step-start, cubic-bezier(0.1, 0.7, 1, 0.1);
 }
-
+ /* AI Image Rotation */
 @-moz-keyframes spin {
     100% {
         -moz-transform: rotateY(360deg);

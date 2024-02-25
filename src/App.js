@@ -1,14 +1,17 @@
 import React from "react";
 import {
   Footer,
-  Blog,
+  //Blog,
   Feature,
   Header,
-  Possibility,
+  //Possibility,
   WhatKutora,
 } from "./containers";
 
-import { Cta, Brand, Navbar } from "./components";
+import {
+  Cta, //Brand,
+  Navbar,
+} from "./components";
 import "./App.css";
 
 const App = () => {
@@ -18,12 +21,12 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <Brand />
+      {/* <Brand /> */}
       <WhatKutora />
       <Feature />
-      <Possibility />
+      {/* <Possibility /> */}
       <Cta />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </div>
   );

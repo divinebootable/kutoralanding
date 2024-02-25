@@ -1,5 +1,5 @@
 import React from "react";
-import people from "../../assets/people.png";
+//import people from "../../assets/people.png";
 import "./header.css";
 import ai from "../../assets/ai.png";
 
@@ -11,20 +11,20 @@ const Header = () => {
           Kutora, where innovation meets advocacy.
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          Best case management software that meets the needs of your firm—and
+          your clients
         </p>
 
         <div className="kutora__header-content__input">
-          <input type="email" placeholder="Your Email Address" />
+          {/* <input type="email" placeholder="Your Email Address" /> */}
           <button type="button">Get Started</button>
         </div>
 
         <div className="kutora__header-content__people">
           {/* <img src={people} alt="people" /> */}
-          <p className="gradient__text">AI POWERED</p>
+          <p className="gradient__text">
+            <span style={{ fontSize: "15px" }}>AI POWERED</span>
+          </p>
         </div>
       </div>
 

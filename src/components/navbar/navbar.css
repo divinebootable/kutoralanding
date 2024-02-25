@@ -6,6 +6,14 @@
     padding: 2rem 6rem;
 }
 
+.logo{
+    font-weight: 500;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    gap: 24px;
+    cursor: pointer;
+}
+
 .kutora__navbar-links {
     flex: 1;
     display: flex;

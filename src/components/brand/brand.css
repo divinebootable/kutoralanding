@@ -1,0 +1,28 @@
+.kutora__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.kutora__brand div {
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aws span{
+    font-weight: 500;
+    color: grey;
+    font-size: 50px;
+    display: flex;
+    padding: 10px 0px;
+}
+.bloomyhost span{
+    font-weight: 500;
+    color: grey;
+    font-size: 50px;
+    display: flex;
+    padding: 10px 0px;
+}
