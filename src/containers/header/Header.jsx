@@ -1,7 +1,8 @@
 import React from "react";
 //import people from "../../assets/people.png";
 import "./header.css";
-import ai from "../../assets/ai.png";
+//import ai from "../../assets/ai.png";
+import intro from "../../assets/intro.png";
 
 const Header = () => {
   return (
@@ -29,7 +30,7 @@ const Header = () => {
       </div>
 
       <div className="kutora__header-image">
-        <img src={ai} alt="AI" />
+        <img src={intro} alt="AI" />
       </div>
     </div>
   );
